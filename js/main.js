@@ -1,5 +1,6 @@
 function main() {
   setHeader();
+  setTrailer();
   setSlider();
 }
 
@@ -28,6 +29,18 @@ function setHeaderResponsive() {
 function toggleShowMenu() {
   const nav = document.querySelector(".nav-responsive");
   nav.classList.toggle("d-block");
+}
+//frame youtube close btn
+function setTrailer() {
+  const showBtn = document.querySelector("#trailer-btn");
+  const closeBtn = document.querySelector("#close-trailer");
+  showBtn.addEventListener("click", toggleTrailer);
+  closeBtn.addEventListener("click", toggleTrailer);
+}
+
+function toggleTrailer() {
+  const iframe = document.querySelector("#trailer-frame");
+  iframe.classList.toggle("d-none");
 }
 
 //slider

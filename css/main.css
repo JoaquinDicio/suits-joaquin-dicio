@@ -330,7 +330,26 @@ form button{
     color: white;
 }
 
+/* iframe youtube */
 
+div.youtube-frame{
+    position: fixed;
+    top: 0;
+    z-index:300;
+    height: 100%;
+    padding-top: 100px;
+    background-color: #32373dad;
+    width: 100%;
+}
+i.fa-xmark{
+    font-size: 2em;
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 20px;
+}
 /* animation for menu */
 @keyframes slideFromTop {
     0% {
