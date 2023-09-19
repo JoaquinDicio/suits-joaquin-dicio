@@ -6,6 +6,8 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat',sans-serif;
+    scroll-behavior: smooth;
+    scroll-margin-top: 50px;
 }
 /* variables */
 
@@ -119,6 +121,9 @@
 
 li{
     list-style: none;
+}
+a{
+    text-decoration: none;
 }
 body{
     background-color: var(--main-dark);
