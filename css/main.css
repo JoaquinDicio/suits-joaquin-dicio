@@ -151,6 +151,9 @@ section.home{
     background-attachment: fixed;
     background-size: cover;
 }
+div.sinopsis-content{
+    max-width: 1200px;
+}
 div.bg-home-opacity{
     background-color: #212428bb;
 }
@@ -209,26 +212,52 @@ div.sinopsis-content{
     margin-top: 50px;
 }
 
-/* styles reparto */
+/* reparto styles */
 div.reparto-content{
-    margin-top: 80px;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(320px,1fr));
-    gap: 10px;
-    width: 100%;
-    max-width: 1000px;
+    margin-top: 100px;
+    overflow: hidden;
+    width: 80%;
+}
+div.slider-content{
+    display: flex;
+    transition: transform 0.3s ease-in-out;
 }
 
 div.reparto-card{
     width: 100%;
+    padding: 10px;
 }
 div.reparto-card img{
     object-fit: cover;
     height: 400px;
     border-radius: 5px;
     width: 100%;
+    min-width: 320px;
+    margin-bottom: 20px;
 }
-
+div.slider-back-btn, div.slider-next-btn{
+    position: absolute;
+    z-index: 100;
+    background-color: var(--secondary-color);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+div.slider-back-btn:hover,div.slider-next-btn:hover{
+    background-color: #a3020a;
+    transition: .25s;
+}
+div.slider-next-btn{
+    right: 100px;
+}
+div.slider-back-btn{
+    transform: rotate(180deg);
+    left: 100px;
+}
 
 /* animation for menu */
 @keyframes slideFromTop {
@@ -241,7 +270,8 @@ div.reparto-card img{
   }
 
 /* responsive styles */
-@media (max-width:768px) {
+@media (max-width:992px) {
+    
     header.p-2{
         height: fit-content;
         background-color: var(--main-dark);
@@ -287,4 +317,12 @@ div.reparto-card img{
     .sinopsis-content div{
         margin-top: 50px;
     }
+
+    div.slider-next-btn{
+        right: 20px;
+    }
+    div.slider-back-btn{
+        left:20px;
+    }
+
 }
