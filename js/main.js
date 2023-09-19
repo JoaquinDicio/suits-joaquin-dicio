@@ -1,6 +1,6 @@
 function main() {
   setHeader();
-  setSlider()
+  setSlider();
 }
 
 //header and menu
@@ -31,27 +31,27 @@ function toggleShowMenu() {
 }
 
 //slider
-let sliderIdx = 0
+let sliderIdx = 0;
 
 function setSlider() {
-  const next = document.querySelector('#next')
-  const back = document.querySelector('#back')
-  next.addEventListener('click', sliderNext)
-  back.addEventListener('click', sliderPrev)
+  const next = document.querySelector("#next");
+  const back = document.querySelector("#back");
+  next.addEventListener("click", sliderNext);
+  back.addEventListener("click", sliderPrev);
 }
 
 function sliderNext() {
-  const cantImgs = document.querySelectorAll('.reparto-card').length
-  if (sliderIdx !== (cantImgs-1)) sliderIdx++
-  moveSlider()
+  const cantImgs = document.querySelectorAll(".reparto-card").length;
+  if (sliderIdx !== cantImgs - 1) sliderIdx++;
+  moveSlider();
 }
 
-function moveSlider(){
-  const slider = document.querySelector('#slider')
+function moveSlider() {
+  const slider = document.querySelector("#slider");
   slider.style.transform = `translateX(-${sliderIdx * 340}px)`;
 }
 
 function sliderPrev() {
-  if (sliderIdx !==0) sliderIdx--
-  moveSlider()
+  if (sliderIdx !== 0) sliderIdx--;
+  moveSlider();
 }
