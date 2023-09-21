@@ -43,9 +43,19 @@ i.burger-menu {
   color: white;
   cursor: pointer;
 }
+/* animation for menu */
+@keyframes slideFromTop {
+  0% {
+    max-height: 0;
+  }
+  100% {
+    max-height: 200px;
+  }
+}
+
 /* home styles */
 section.home {
-  background-image: url("../assets/img/1333781-suits-wallpaper-1920x1080-4k.jpg");
+  background-image: url("../assets/img/1333781-suits-wallpaper-1920x1080-4k.webp");
   background-position: top;
   background-attachment: fixed;
   background-size: cover;
