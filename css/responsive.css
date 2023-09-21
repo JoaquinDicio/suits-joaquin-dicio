@@ -1,0 +1,86 @@
+/* responsive styles */
+@media (max-width: 992px) {
+  header.p-2 {
+    height: fit-content;
+    background-color: var(--main-dark);
+  }
+  header nav {
+    margin-top: 30px;
+    width: 100vw;
+    display: none;
+    animation: slideFromTop 0.3s ease-in;
+    overflow: hidden;
+  }
+  i.burger-menu {
+    display: block;
+  }
+  li.nav-item {
+    padding: 15px 0;
+  }
+  .md-flex-column {
+    flex-direction: column;
+  }
+  .md-align-center {
+    align-items: center;
+  }
+  .md-text-center {
+    text-align: center;
+  }
+  .md-px-0 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  p.brand-logo {
+    font-size: 5em;
+  }
+  p.created-by {
+    font-size: 1em;
+  }
+  div.sinopsis-content {
+    padding: 20px;
+  }
+  div.sinopsis-content div {
+    margin-left: 0;
+  }
+  .sinopsis-content div {
+    margin-top: 50px;
+  }
+
+  div.slider-next-btn {
+    right: 20px;
+  }
+  div.slider-back-btn {
+    left: 20px;
+  }
+  div.reparto-content {
+    width: 90%;
+  }
+  div.reparto-card {
+    width: 340px;
+  }
+  div.datos-card {
+    flex-direction: column;
+  }
+  div.datos-card p {
+    padding: 0 50px;
+  }
+  .datos-card p.number {
+    margin-right: 0;
+    margin: 10px 0;
+  }
+
+  div.criticas-content {
+    width: 100%;
+    padding: 0 5px;
+  }
+}
+
+@media (max-width: 375px) {
+  footer {
+    flex-direction: column;
+  }
+  footer .social {
+    flex-direction: row;
+    margin-top: 10px;
+  }
+}

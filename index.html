@@ -220,8 +220,12 @@
                 <div class="datos-card d-flex align-center">
                     <p class="text-white md-text-center number">5</p>
                     <p class="text-white md-text-center ">Meghan Markle, quien protagoniza a Rachel Zane, es actualmente
-                        duquesa de Sussex y forma parte de la familia real britanica.</p>
+                        duquesa de Sussex y forma parte de la familia real britanica. <span id="boda-btn" class="link">Ver video</span></p>
                 </div>
+            </div>
+            <div id="boda-frame" class="youtube-frame d-flex justify-center d-none">
+                <i id="close-boda" class="fa-solid fa-xmark"></i>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Nya5BR-ziPc?si=A8r1jteKMOarfY-B" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </section>
         <section id="contacto" class="md-px-0 p-4 d-flex flex-column align-center">
@@ -230,14 +234,23 @@
             <form class="d-flex flex-column align-center">
                 <input class="form-input p-1" type="text" placeholder="nombre">
                 <input class="form-input p-1" type="text" placeholder="alguien@example.com">
+                <input class="form-input p-1" type="text" placeholder="telefono">
                 <textarea class="form-input p-1" name="" id="" cols="30" rows="10" placeholder="mensaje"></textarea>
                 <button class="btn-classic cursor-pointer">Enviar</button>
             </form>
         </section>
     </main>
-    <footer>
-
+    <footer class="bg-secondary p-3 d-flex justify-center align-center">
+        <div>
+            <img src="./assets/img/yo.png" alt="joaquin">
+            <p class="text-white text-center">Joaquin Di cio - 20 años</p>
+        </div>
+        <div class="social d-flex flex-column align-center justify-center">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-regular fa-envelope"></i>
+            <i class="fa-brands fa-linkedin"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
     </footer>
 </body>
-
 </html>

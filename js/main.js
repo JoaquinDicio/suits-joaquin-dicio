@@ -1,7 +1,12 @@
 function main() {
+  //mainly for responsive menu
   setHeader();
+  //sets 'ver trailer' events and butons
   setTrailer();
+  //sets the slider and it's buttons
   setSlider();
+  //sets 'ver video' action and events
+  setBoda();
 }
 
 //header and menu
@@ -31,6 +36,7 @@ function toggleShowMenu() {
   nav.classList.toggle("d-block");
 }
 //frame youtube close btn
+//for trailer
 function setTrailer() {
   const showBtn = document.querySelector("#trailer-btn");
   const closeBtn = document.querySelector("#close-trailer");
@@ -40,6 +46,18 @@ function setTrailer() {
 
 function toggleTrailer() {
   const iframe = document.querySelector("#trailer-frame");
+  iframe.classList.toggle("d-none");
+}
+//for 'ver video'
+function setBoda() {
+  const showBtn = document.querySelector("#boda-btn");
+  const closeBtn = document.querySelector("#close-boda");
+  showBtn.addEventListener("click", toggleBoda);
+  closeBtn.addEventListener("click", toggleBoda);
+}
+
+function toggleBoda() {
+  const iframe = document.querySelector("#boda-frame");
   iframe.classList.toggle("d-none");
 }
 

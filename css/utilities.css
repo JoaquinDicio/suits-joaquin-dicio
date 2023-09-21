@@ -1,0 +1,108 @@
+/* variables */
+
+:root {
+  --secondary-color: #e5000c;
+  --main-dark: #32373d;
+  --secondary-dark: #212428;
+}
+
+/* utilities */
+.d-flex {
+  display: flex;
+}
+.d-block {
+  display: block !important;
+}
+.flex-column {
+  flex-direction: column;
+}
+.d-none {
+  display: none;
+}
+.justify-center {
+  justify-content: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.m-0 {
+  margin: 0;
+}
+.p-1 {
+  padding: 1em;
+}
+.p-2 {
+  padding: 1.5em;
+}
+.p-3 {
+  padding: 3em;
+}
+.p-4 {
+  padding: 4.5em;
+}
+.p-5 {
+  padding: 6em;
+}
+.px-1 {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+.px-2 {
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+}
+.px-3 {
+  padding-right: 3em;
+  padding-left: 3em;
+}
+.align-center {
+  align-items: center;
+}
+.text-center {
+  text-align: center;
+}
+.font-bold {
+  font-weight: bold;
+}
+.text-white {
+  color: white;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.item-hover:hover {
+  font-weight: bold;
+  transition: 0.25s;
+}
+
+.w-100 {
+  width: 100%;
+}
+.h-screen {
+  height: 100vh;
+}
+.btn-classic {
+  border-radius: 5px;
+  border: none;
+  padding: 10px 20px;
+  background-color: var(--secondary-color);
+  color: white;
+  font-weight: bold;
+}
+.btn-classic:hover {
+  background-color: #a3020a;
+  transition-duration: 0.2s;
+}
+.text-default {
+  font-weight: 300;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.bg-secondary {
+  background-color: var(--secondary-dark);
+}
