@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Tienda especializada en productos Apple, incluyendo iPhone, iPad, MacBook, Apple Watch, AirPods y accesorios. Descubre lo último en tecnología Apple." />
+  <meta name="keywords"
+    content="iPhone, iPad, MacBook, Apple Watch, AirPods, Accesorios Apple, Comprar productos Apple" />
+  <meta name="author" content="Joaquin Di cio" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!-- my css-->
+  <link rel="stylesheet" href="./css/styel.css" />
+  <title>iPhone 15 - Apple</title>
+</head>
+
+<body>
+  <!-- Header de la página -->
+  <header class="shadow-sm">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Apple</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#sobre-nosotros">Sobre nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#productos">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#especificaciones">Especificaciones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contenido principal de la página -->
+  <main class="bg-light">
+    <!-- HOME SECTION CAROUSEL -->
+    <section>
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <picture>
+              <img src="./assets/img/banner1.jpg" alt="">
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <img src="./assets/img/banner2.webp" alt="">
+            </picture>
+          </div>
+          <div class="carousel-item">
+            <picture>
+              <img src="./assets/img/banner3.jpeg" alt="">
+            </picture>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- ABOUT US SECTION -->
+    <section id="sobre-nosotros" class="shadow-sm  bg-white pt-5 pb-5 mb-5">
+      <div class="container-fluid pt-4 p-5 bg-white">
+        <h2 class="pb-3">Sobre nosotros.</h2>
+        <p>
+          En <strong>Apple</strong>, nuestra historia está intrínsecamente
+          ligada a la innovación. Desde el momento en que
+          <strong>Steve Jobs</strong> y
+          <strong>Steve Wozniak</strong> fundaron la empresa en 1976, nos
+          hemos esforzado por desafiar los límites de lo posible. Cada
+          producto que creamos, ya sea el <strong>Macintosh</strong> que
+          revolucionó la informática personal en 1984 o el
+          <strong>iPhone</strong> que cambió la forma en que nos conectamos en
+          2007, es una manifestación de nuestro compromiso con la excelencia y
+          el diseño vanguardista. En el corazón de <strong>Apple</strong> está
+          la creencia de que la tecnología puede ser accesible, hermosa y
+          transformadora. Continuamos liderando la industria al ofrecer
+          experiencias únicas que inspiran y simplifican la vida de las
+          personas.
+        </p>
+        <p>
+          En <strong>Apple</strong>, nos enorgullece crear más que simples
+          dispositivos; construimos experiencias. Nuestro ecosistema
+          integrado, que abarca desde el <strong>iPhone</strong> hasta el
+          <strong>Apple Watch</strong> y nuestros servicios como
+          <strong>iCloud</strong> y <strong>Apple Music</strong>, está
+          diseñado para proporcionar una conexión sin interrupciones en tu
+          vida digital. Cuando eliges <strong>Apple</strong>, eliges una
+          armonía entre hardware y software que se traduce en simplicidad,
+          elegancia y funcionalidad. Nos esforzamos por superar las
+          expectativas, no solo en términos de tecnología, sino también en
+          nuestro compromiso con la sostenibilidad y la responsabilidad
+          social. Únete a nosotros mientras continuamos impulsando la
+          innovación y creando un impacto positivo en el mundo que nos rodea.
+        </p>
+      </div>
+    </section>
+    <section id="productos" class="bg-light pt-5 pb-5 mb-5">
+      <div class="container-fluid pt-4 p-5 bg-transparent d-flex flex-column align-items-center">
+        <h2 class="mb-5 pb-5">Productos</h2>
+        <ul class="product-list d-flex m-0 p-0">
+          <li class="rounded p-5 shadow-sm bg-white item-product-list">
+            <picture>
+              <img src="./assets/img/iphone15-black.webp" alt="iphone 15">
+            </picture>
+            <p class="product-title fs-5 m-0 pt-3">iPhone 15 Pro Max</p>
+            <p>RAM 8GB ROM 512GB</p>
+            <p class="product-price fw-bold fs-5">$1500</p>
+            <button class="btn btn-primary">Comprar</button>
+          </li>
+          <li class="rounded p-5 shadow-sm bg-white item-product-list">
+            <picture>
+              <img src="./assets/img/iphone15-blue.webp" alt="iphone 15">
+            </picture>
+            <p class="product-title fs-5 m-0 pt-3">iPhone 15 Pro Max</p>
+            <p>RAM 8GB ROM 512GB</p>
+            <p class="product-price fw-bold fs-5">$1000</p>
+            <button class="btn btn-primary">Comprar</button>
+          </li>
+          <li class="rounded p-5 shadow-sm bg-white item-product-list">
+            <picture>
+              <img src="./assets/img/iphone15-gold.webp" alt="iphone 15">
+            </picture>
+            <p class="product-title fs-5 m-0 pt-3">iPhone 15 Pro Max</p>
+            <p>RAM 8GB ROM 512GB</p>
+            <p class="product-price fw-bold fs-5">$1000</p>
+            <button class="btn btn-primary">Comprar</button>
+          </li>
+          <li class="rounded p-5 shadow-sm bg-white item-product-list">
+            <picture>
+              <img src="./assets/img/iphone15-white.webp" alt="iphone 15">
+            </picture>
+            <p class="product-title fs-5 m-0 pt-3">iPhone 15 Pro Max</p>
+            <p>RAM 8GB ROM 512GB</p>
+            <p class="product-price fw-bold fs-5">$1000</p>
+            <button class="btn btn-primary">Comprar</button>
+          </li>
+          <li class="rounded p-5 shadow-sm bg-white item-product-list">
+            <picture>
+              <img src="./assets/img/iphone15-rose.webp" alt="iphone 15">
+            </picture>
+            <p class="product-title fs-5 m-0 pt-3">iPhone 15</p>
+            <p>RAM 6GB ROM 256GB</p>
+            <p class="product-price fw-bold fs-5">$1000</p>
+            <button class="btn btn-primary">Comprar</button>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- PRODUCT DETAIL SECTION -->
+    <section id="especificaciones" class="bg-white pt-5 shadow-sm pb-5 d-flex justify-content-center container-fluid">
+      <div class="detail container pt-4 m-0">
+        <h2 class="pb-5">iPhone 15 PRO MAX</h2>
+        <div
+          class="detail-info d-flex flex-column align-items-center flex-lg-row align-items-lg-start align-items-center">
+          <picture class="col-lg-7">
+            <img class="img-detail-info" src="assets/img/iphone15promax.png" alt="iPhone 15 PRO MAX" />
+          </picture>
+          <div class="col-lg-5 p-lg-5 pt-lg-3 detail-info-text">
+            <h3 class="pb-3 text-center text-lg-start">Caracteristicas</h3>
+            <ul class="p-3">
+              <li class="text-lg-start text-center">Memoria RAM de 8GB</li>
+              <li class="text-lg-start text-center">Procesador A17 PRO</li>
+              <li class="text-lg-start text-center">Memoria ROM de 512GB</li>
+              <li class="text-lg-start text-center">Sistema de camaras PRO</li>
+              <li class="text-lg-start text-center">Pantalla super retina XDR 6.7"</li>
+              <li class="text-lg-start text-center">Cuerpo de <strong>tintanio aeroespacial</strong></li>
+
+            </ul>
+          </div>
+        </div>
+        <div class="accordion detail-faq" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                Cómo puedo pagar?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Ofrecemos diversas opciones de pago para tu comodidad. Puedes realizar tu compra utilizando tarjetas
+                  de crédito o débito, como <strong>Visa, MasterCard y American Express</strong>. También aceptamos
+                  pagos a través de servicios de pago en línea seguros como <strong>PayPal</strong>. Garantizamos un
+                  proceso de pago seguro y protegido para asegurar la confidencialidad de tus datos financieros.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Dónde hacemos envíos?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Realizamos envíos a nivel nacional e internacional para garantizar que nuestros productos lleguen a
+                  clientes en todo el mundo. Siempre que exista una dirección de entrega válida, nuestro servicio de
+                  envío se encargará de entregar tu pedido en el destino deseado. Para conocer más detalles sobre los
+                  costos de envío y los tiempos de entrega estimados, te invitamos a consultar nuestra página de
+                  <strong>políticas de envío</strong> o comunicarte con nuestro equipo de atención al cliente.
+                </p>
+                <p>Recuerda que las tarifas y restricciones de envío pueden variar según la ubicación, así que asegúrate
+                  de revisar esta información antes de completar tu compra.</p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Ofrecen garantía?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Sí, ofrecemos garantía en nuestros productos. Nos comprometemos a proporcionar productos de alta
+                  calidad, y si por alguna razón no estás satisfecho con tu compra, puedes <strong>contactar a nuestro
+                    equipo de atención al cliente</strong> para obtener asistencia. Consulta nuestra página de
+                  <strong>políticas de garantía</strong> para obtener más detalles sobre los términos y condiciones de
+                  nuestra garantía.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- INCOMING EVENTS  -->
+    <section id="eventos" class="d-flex flex-column justify-content-center pb-4 pt-5 p-3">
+      <h2 class="text-center p-5">Proximos eventos</h2>
+      <p class="text-center">¡Prepárate para emocionantes eventos próximos que no te querrás perder! Estamos encantados
+        de compartir contigo
+        nuestras próximas experiencias.</p>
+      <p class="text-center">Uno de los momentos destacados será la presentación del <strong>iPhone 16</strong>, que
+        marcará un hito en
+        innovación y diseño. Asegúrate de estar atento a la fecha de lanzamiento y únete a nosotros para descubrir lo
+        último en tecnología.</p>
+      <picture>
+        <img src="./assets/img/presentacion.jpg" alt="presentacion de apple">
+      </picture>
+
+    </section>
+    <!-- CONTACT SECTION -->
+    <section id="contacto" class="bg-light p-5">
+      <h2 class="text-center">Contacto</h2>
+      <form method="post" action="/" class="form container-sm" id="formContacto">
+        <div class="mb-3 pt-3">
+          <label for="FormName" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="FormName" placeholder="ej Agustin" required />
+        </div>
+        <div class="mb-3">
+          <label for="FormEmail" class="form-label">Dirección de Email</label>
+          <input type="email" class="form-control" id="FormEmail" placeholder=" ej nombre@gmail.com" required />
+        </div>
+        <div class="mb-3">
+          <label for="FormNum" class="form-label">Telefono</label>
+          <input type="tel" class="form-control" id="FormNum" placeholder="ej 1173984638" required />
+        </div>
+        <div class="mb-3 pb-3">
+          <label for="FormCom" class="form-label">Dejanos tu comentarios y preguntas
+          </label>
+          <textarea class="form-control" id="FormCom" rows="3" placeholder="comentarios"></textarea>
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+          <button class="btn btn btn-dark" type="submit">Enviar</button>
+        </div>
+      </form>
+
+    </section>
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="flex-wrap p-4 bg-dark d-flex justify-content-between">
+    <!-- modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Creador del sitio</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body d-flex align-items-center flex-column">
+            <p><strong>Joaquin Di cio</strong></p>
+            <img src="./assets/img/yo.jpg" class="modal-img" alt="">
+            <ul class="pt-4">
+              <li><strong>Correo:</strong> joacodicio@gmail.com</li>
+              <li><strong>Materia:</strong> Interaccion con dispositivos moviles</li>
+              <li><strong>Comision:</strong> DWT2AV</li>
+              <li><strong>Turno:</strong> Tarde</li>
+              <li><strong>Año:</strong> 2023</li>
+              <li><strong>Cuatrimestre:</strong> 2do</li>
+            </ul>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="text-white m-0">Apple Inc.</p>
+    <nav>
+      <ul class="p-0 m-0 d-flex justify-content-around">
+        <li><a class="text-white" target="_blank" href="https://instagram.com">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+              viewBox="0 0 16 16">
+              <path
+                d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a class="text-white" target="_blank" href="mailto:joacodicio@gmail.com">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-mailbox2-flag" viewBox="0 0 16 16">
+              <path d="M10.5 8.5V3.707l.854-.853A.5.5 0 0 0 11.5 2.5v-2A.5.5 0 0 0 11 0H9.5a.5.5 0 0 0-.5.5v8z" />
+              <path
+                d="M4 3h4v1H6.646A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3V3a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4m.585 4.157C4.836 7.264 5 7.334 5 7a1 1 0 0 0-2 0c0 .334.164.264.415.157C3.58 7.087 3.782 7 4 7c.218 0 .42.086.585.157" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="" data-bs-toggle="modal" data-bs-target="#exampleModal" target="_blank" class="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+              class="bi bi-info-circle-fill" viewBox="0 0 16 16">
+              <path
+                d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2" />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://tiktok.com" target="_blank" class="text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-tiktok"
+              viewBox="0 0 16 16">
+              <path
+                d="M9 0h1.98c.144.715.54 1.617 1.235 2.512C12.895 3.389 13.797 4 15 4v2c-1.753 0-3.07-.814-4-1.829V11a5 5 0 1 1-5-5v2a3 3 0 1 0 3 3z" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <p class="m-0 text-center text-white copy w-100">
+      Apple Inc. 2023 Todos los derechos reservados
+    </p>
+
+  </footer>
+
+  <!-- scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

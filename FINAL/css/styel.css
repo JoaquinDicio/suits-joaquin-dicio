@@ -1,0 +1,167 @@
+/* ================ NAVBAR ================ */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+    min-height: 70px;
+}
+
+.navbar a {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.navbar a:hover {
+    font-weight: bold;
+    transition: .2s;
+}
+
+a.navbar-brand {
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding: 0 40px;
+}
+
+main {
+    padding-top: 70px;
+}
+
+/* ================ SLIDER ================ */
+span {
+    background-color: rgba(0, 0, 0, 0.308) !important;
+    border-radius: 50%;
+}
+
+.carousel-item img {
+    width: 100%;
+    min-height: 150px;
+    max-height: 60vh;
+    object-fit: cover;
+}
+
+/* ================ NOSOTROS ================ */
+section#sobre-nosotros div {
+    max-width: 1024px;
+}
+
+/* ================ PRODUCTOS ================ */
+ul.product-list {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    max-width: 900px;
+}
+
+ul.product-list li {
+    flex: 1;
+    min-width: 320px;
+}
+
+ul.product-list li img {
+    height: 250px;
+}
+
+/* ================ ESPECIFICACIONES ================ */
+#especificaciones {
+    padding-bottom: 100px !important;
+}
+
+.img-detail-info {
+    object-fit: cover;
+    width: 100%;
+    object-position: 90px;
+    margin-bottom: 30px;
+    max-width: 500px;
+}
+
+picture {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    text-align: center;
+    line-height: 2;
+}
+
+div.accordion {
+    margin-top: 2.5rem;
+}
+
+div.accordion-item {
+    padding: 5px;
+}
+
+button.accordion-button:not(.collapsed) {
+    background-color: rgb(71, 71, 71) !important;
+    color: white !important;
+}
+
+button.accordion-button::after {
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+}
+
+/* ================ CONTACTO ================ */
+#contacto {
+    padding-bottom: 120px !important;
+    padding-top: 100px !important;
+}
+
+.form-control {
+    border: none;
+    border-radius: 0px;
+    border-bottom: 1px solid black;
+    background-color: transparent;
+}
+
+/* ================ EVENTOS - SECCION LIBRE ================ */
+
+section#eventos {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+section#eventos img {
+    width: 100%;
+    max-width: 1024px;
+    border-radius: 10px;
+    margin: 80px;
+}
+
+/* ================ FOOTER ================ */
+
+footer nav {
+    width: 150px;
+}
+
+footer nav ul li a svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+p.copy {
+    font-size: .8rem;
+}
+
+img.modal-img {
+    width: 250px;
+    border-radius: 20px;
+}
+
+/* ================ MEDIA ================ */
+
+@media (max-width:992px) {
+    .img-detail-info {
+        min-width: 320px;
+    }
+}
