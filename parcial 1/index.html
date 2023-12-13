@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="suits,serie televisiva, abodagos, netflix,legal,la ley de los audaces, harvey specter, aron Korsh">
+    <meta name="description" content="Explora el emocionante mundo de 'Suits', la serie de abogados que te sumerge en el drama legal y las intrigas corporativas de Nueva York. Descubre los personajes carismáticos, los trajes elegantes y los giros inesperados que hacen que 'Suits' sea una de las series más icónicas de la televisión. Únete a nosotros para analizar episodios, conocer a los actores y obtener detalles detrás de escena. ¡Sé parte del universo de 'Suits' ahora mismo!">
+    <link rel="icon" href="./assets/img/icon.gif" type="image/x-icon">
+    <!-- fontawesome for icons -->
+    <script src="https://kit.fontawesome.com/759a8eedd2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js/main.js"></script>
+    <title>Suits</title>
+</head>
+
+<body onload="main()">
+    <header class="md-flex-column d-flex align-center justify-between p-2">
+        <div class="brand-container d-flex align-center justify-between w-100">
+            <h1 class="m-0 text-white">SUITS</h1>
+            <i id="btn-menu" class="burger-menu fa-solid fa-bars"></i>
+        </div>
+        <nav class="nav-responsive">
+            <ul class="d-flex md-flex-column md-align-center">
+                <li class="nav-item"><a href="#home" class="item-hover cursor-pointer px-1 text-white">Inicio</a></li>
+                <li class="nav-item"><a href="#sinopsis" class="item-hover cursor-pointer px-1 text-white">Sinopsis</a>
+                </li>
+                <li class="nav-item"><a href="#reparto" class="item-hover cursor-pointer px-1 text-white">Reparto</a>
+                </li>
+                <li class="nav-item"><a href="#criticas" class="item-hover cursor-pointer px-1 text-white">Criticas</a>
+                </li>
+                <li class="nav-item"><a href="#curiosidades"
+                        class="item-hover cursor-pointer px-1 text-white">Curiosidades</a></li>
+                <li class="nav-item"><a href="#contacto" class="item-hover cursor-pointer px-1 text-white">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="home">
+            <div class="h-screen d-flex justify-center align-center bg-home-opacity">
+                <div class="home-line"></div>
+                <div class="flex flex-column align-center">
+                    <p class="brand-logo">
+                        SUITS
+                    </p>
+                    <p class="created-by text-center">by Aaron Korsh</p>
+                </div>
+                <div class="home-line"></div>
+            </div>
+        </section>
+        <section id="sinopsis" class="md-px-0 p-4 sinopsis d-flex flex-column align-center">
+            <div id="trailer-frame" class="youtube-frame d-flex justify-center d-none">
+                <i id="close-trailer" class="fa-solid fa-xmark"></i>
+                <iframe width="487" height="395" src="https://www.youtube.com/embed/C1eYARTyql8"
+                    title="SUITS - Miércoles 21Hs - Trailer 4"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+            <h2 class="text-white text-center title">SINOPSIS</h2>
+            <div class="title-subline"></div>
+            <div class="sinopsis-content d-flex md-flex-column md-align-center">
+                <img src="./assets/img/98.webp" alt="harvey y mike ross">
+                <div class="d-flex flex-column md-align-center">
+                    <p class="md-text-center text-white text-default">La serie es protagonizada por Gabriel Macht y
+                        Patrick J. Adams,
+                        quienes interpretan los personajes de Harvey Specter y Mike Ross
+                        respectivamente.</p>
+                    <p class="md-text-center text-white text-default">
+                        Mike es un inteligente estudiante que ha dejado la universidad,
+                        pero que es contratado por el brillante Harvey Specter para
+                        trabajar en una firma de abogados a pesar de no ser graduado en
+                        derecho.</p>
+                    <p class="md-text-center text-white text-default">
+                        La serie trata de cómo estos dos abogados resuelven casos al
+                        mismo tiempo que mantienen a salvo el secreto de Mike</p>
+                    <button id="trailer-btn" class="btn-classic cursor-pointer">VER TRAILER</button>
+                </div>
+            </div>
+        </section>
+        <section id="reparto" class="p-4 bg-secondary d-flex flex-column align-center">
+            <h2 class="text-white text-center title">REPARTO</h2>
+            <div class="title-subline"></div>
+            <div class="reparto-content d-flex align-center">
+                <div id="back" class="slider-back-btn">
+                    <i class="fa-solid fa-arrow-right text-white"></i>
+                </div>
+                <div class="slider-content" id="slider">
+                    <div class="reparto-card d-flex flex-column ">
+                        <img src="./assets/img/harvey_specter_suits_trajes_41810879.webp"
+                            alt="harvey specter">
+                        <p class="text-white font-bold reparto-card-ch">Harvey Specter</p>
+                        <p class="text-white reparto-card-name">Gabriel Macht</p>
+                    </div>
+                    <div class="reparto-card d-flex flex-column ">
+                        <img src="./assets/img/mikeross.webp"
+                            alt="mike ross">
+                        <p class="text-white font-bold reparto-card-ch">Mike Ross</p>
+                        <p class="text-white reparto-card-name">Patrick Adams</p>
+                    </div>
+                    <div class="reparto-card d-flex flex-column ">
+                        <img src="./assets/img/rachel.webp"
+                            alt="rachel zane">
+                        <p class="text-white font-bold reparto-card-ch">Rachel Zane</p>
+                        <p class="text-white reparto-card-name">Meghan Markle</p>
+                    </div>
+                    <div class="reparto-card d-flex flex-column ">
+                        <img src="./assets/img/jessica.webp"
+                            alt="jessica pearson">
+                        <p class="text-white font-bold reparto-card-ch">Jessica Pearson</p>
+                        <p class="text-white reparto-card-name">Gina Torres</p>
+                    </div>
+                    <div class="reparto-card d-flex flex-column ">
+                        <img src="./assets/img/louis.webp"
+                            alt="Louis litt">
+                        <p class="text-white font-bold reparto-card-ch">Louis Litt</p>
+                        <p class="text-white reparto-card-name">Rick Hoffman</p>
+                    </div>
+                    <div class="reparto-card d-flex flex-column ">
+                        <img src="./assets/img/dona.webp"
+                            alt="Donna Poulsen">
+                        <p class="text-white font-bold reparto-card-ch">Donna Poulsen</p>
+                        <p class="text-white reparto-card-name">Sarah Rafferty</p>
+                    </div>
+                    <div class="reparto-card d-flex flex-column ">
+                        <img src="./assets/img/dana.webp"
+                            alt="Dana Scott">
+                        <p class="text-white font-bold reparto-card-ch">Dana Scott</p>
+                        <p class="text-white reparto-card-name">Abigail Spencer</p>
+                    </div>
+                    <div class="reparto-card d-flex flex-column ">
+                        <img src="./assets/img/katrina.webp"
+                            alt="Katrina Benett">
+                        <p class="text-white font-bold reparto-card-ch">Katrina Benett</p>
+                        <p class="text-white reparto-card-name">Amanda Schull</p>
+                    </div>
+                    <div class="reparto-card d-flex flex-column ">
+                        <img src="./assets/img/alex.webp" alt="Alex Williams">
+                        <p class="text-white font-bold reparto-card-ch">Alex Williams</p>
+                        <p class="text-white reparto-card-name">Dule Hills</p>
+                    </div>
+                    <div class="reparto-card d-flex flex-column ">
+                        <img src="./assets/img/travis.webp"
+                            alt="Trevor Evans">
+                        <p class="text-white font-bold reparto-card-ch">Trevor Evans</p>
+                        <p class="text-white reparto-card-name">Tom Lipinski</p>
+                    </div>
+                    <div class="reparto-card d-flex flex-column ">
+                        <img src="./assets/img/sam.webp"
+                            alt="harvey specter">
+                        <p class="text-white font-bold reparto-card-ch">Samantha Wheeler</p>
+                        <p class="text-white reparto-card-name">Katherine Heigl</p>
+                    </div>
+                </div>
+                <div id="next" class="slider-next-btn">
+                    <i class="fa-solid fa-arrow-right text-white"></i>
+                </div>
+            </div>
+        </section>
+        <section id="criticas" class="md-px-0 criticas p-4 d-flex flex-column align-center">
+            <h2 class="text-white text-center title">CRITICAS</h2>
+            <div class="title-subline"></div>
+            <div class="criticas-content">
+                <div class="bg-secondary card-criticas d-flex flex-column align-center">
+                    <img src="./assets/img/closeup-male-studio-portrait-of-happy-man-looking-at-the-camera-image-free-photo.webp"
+                        alt="">
+                    <p class="p-1 text-center text-white font-bold">Adam Spencer</p>
+                    <p class="text-center text-white criticas-card-text">"Suits" es un deleite para los amantes del drama legal. Su intrigante trama, actuaciones convincentes y estilo visual elegante hacen que cada episodio sea una experiencia cautivadora.</p>
+                </div>
+                <div class="bg-secondary card-criticas d-flex flex-column align-center">
+                    <img src="./assets/img/eyeglasses_mens_glasses_trends.webp"
+                        alt="">
+                    <p class="p-1 text-center text-white font-bold">Oliver Atom</p>
+                    <p class="text-center text-white criticas-card-text">Con su narrativa inteligente y giros sorprendentes, "Suits" se destaca como una serie legal de primer nivel. El elenco brilla en sus roles, y la producción de alta calidad agrega un toque de sofisticación a esta emocionante serie.</p>
+                </div>
+                <div class="bg-secondary card-criticas d-flex flex-column align-center">
+                    <img src="./assets/img/maxi_iglesias-kXKH--620x349@abc.webp"
+                        alt="">
+                    <p class="p-1 text-center text-white font-bold">Roger Ebert</p>
+                    <p class="text-center text-white criticas-card-text">"Suits" ofrece un emocionante drama legal que
+                        mantendrá a los espectadores pegados a la pantalla. Los casos jurídicos son el centro de la
+                        trama y están llenos de giros inesperados.</p>
+                </div>
+                <div class="bg-secondary card-criticas d-flex flex-column align-center">
+                    <img src="./assets/img/retrato-hombre-joven-expresivo-vistiendo-traje-formal_273609-6942.webp"
+                        alt="">
+                    <p class="p-1 text-center text-white font-bold">Roger Ebert</p>
+                    <p class="text-center text-white criticas-card-text">Los personajes principales, como Harvey Specter
+                        y Mike Ross, son carismáticos y cautivadores. Sin embargo, a veces parecen idealizados, lo que
+                        puede restarle realismo a la serie.</p>
+                </div>
+                <div class="bg-secondary card-criticas d-flex flex-column align-center">
+                    <img src="./assets/img/xantalllavina_elperiodico_LUZUVLOGSLINK.webp"
+                        alt="">
+                    <p class="p-1 text-center text-white font-bold ">A.O. Scott</p>
+                    <p class="text-center text-white criticas-card-text">La serie también explora las relaciones
+                        personales de los personajes, agregando una dimensión emocional a la trama. Aunque algunas
+                        subtramas románticas pueden volverse predecibles, enriquecen la experiencia general de la serie.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="curiosidades" class="md-px-0 p-4 d-flex flex-column align-center bg-secondary">
+            <h2 class="text-white text-center title">DATOS CURIOSOS</h2>
+            <div class="title-subline"></div>
+            <div class="datos-curiosos">
+                <div class="datos-card d-flex align-center">
+                    <p class="text-white md-text-center number">1</p>
+                    <p class="text-white md-text-center">La serie "Suits" se inspiró en la vida del creador Aaron Korsh,
+                        quien tuvo
+                        la idea después de que un amigo suyo abandonara la escuela de derecho de Harvard para trabajar
+                        como asistente legal sin haber completado sus estudios.</p>
+                </div>
+                <div class="datos-card d-flex align-center">
+                    <p class="text-white md-text-center number">2</p>
+                    <p class="text-white md-text-center ">Inicialmente, la serie iba a llamarse "A Legal Mind," pero el
+                        título se
+                        cambió a "Suits" poco antes de su estreno.</p>
+                </div>
+                <div class="datos-card d-flex align-center">
+                    <p class="text-white md-text-center number">3</p>
+                    <p class="text-white md-text-center ">El vestuario desempeña un papel importante en la serie, y el
+                        personaje de
+                        Harvey Specter es conocido por sus trajes de alta gama. En realidad, Gabriel Macht, quien
+                        interpreta a Harvey, se convirtió en un experto en atuendos y ayudó a seleccionar los trajes que
+                        usaba en la serie.</p>
+                </div>
+                <div class="datos-card d-flex align-center">
+                    <p class="text-white md-text-center number">4</p>
+                    <p class="text-white md-text-center ">"Suits" contó con varios cameos de celebridades a lo largo de
+                        sus temporadas,
+                        incluyendo a estrellas de la NBA como Michael Jordan y Charles Barkley, así como al expresidente
+                        de Estados Unidos Barack Obama</p>
+                </div>
+                <div class="datos-card d-flex align-center">
+                    <p class="text-white md-text-center number">5</p>
+                    <p class="text-white md-text-center ">Meghan Markle, quien protagoniza a Rachel Zane, es actualmente
+                        duquesa de Sussex y forma parte de la familia real britanica. <span id="boda-btn" class="link">Ver video</span></p>
+                </div>
+            </div>
+            <div id="boda-frame" class="youtube-frame d-flex justify-center d-none">
+                <i id="close-boda" class="fa-solid fa-xmark"></i>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/Nya5BR-ziPc?si=A8r1jteKMOarfY-B" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </section>
+        <section id="contacto" class="md-px-0 p-4 d-flex flex-column align-center">
+            <h2 class="text-white text-center title">CONTACTO</h2>
+            <div class="title-subline"></div>
+            <form class="d-flex flex-column align-center">
+                <input class="form-input p-1" type="text" placeholder="nombre">
+                <input class="form-input p-1" type="text" placeholder="alguien@example.com">
+                <input class="form-input p-1" type="text" placeholder="telefono">
+                <textarea class="form-input p-1" name="message" cols="30" rows="10" placeholder="mensaje"></textarea>
+                <button class="btn-classic cursor-pointer">Enviar</button>
+            </form>
+        </section>
+    </main>
+    <footer class="bg-secondary p-3 d-flex justify-center align-center">
+        <div>
+            <img src="./assets/img/to.png" alt="joaquin">
+            <p class="text-white text-center">Joaquin Di cio - 20 años</p>
+        </div>
+        <div class="social d-flex flex-column align-center justify-center">
+
+            <a target="_blank" href="https://www.instagram.com/joacodicio/"><i class="fa-brands fa-instagram"></i></a>
+            <a target="_blank" href="mailto:joacodicio@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+            <a target="_blank" href="https://www.linkedin.com/in/joaquin-di-cio-142638230/"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+    </footer>
+</body>
+</html>
